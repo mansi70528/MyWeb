@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpPage</title>
+    <style>
+           body {
+            background: url(bg2.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+  
+        h2 {
+            text-align: center;
+
+        }
+        input[type="text"],input[type="date"],input[type="email"],input[type="password"],input[type="Number"]{
+            width: 50%;
+            padding: 12px 25px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+            background-color:gray;
+            border-radius: 5px;
+            width: 40%;
+        }
+        
+        .register input{
+            text-align: center;
+            display:block;
+            margin: 20px auto;
+            border: 2px solid black;
+            border-radius: 2px;
+            box-sizing: border-box;
+           
+       }
+        .btn{
+            margin: 20px auto;
+            display: block;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        
+            left: 45%;
+            padding: 5px 20px;
+            border: none;
+            border-radius: 2px;
+            
+
+       }
+       .btn:hover{
+            opacity: 0.6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form action="form2.php"></form>
+        <h2>Sign-Up</h2>
+        
+    
+        <div class="register">
+            <input type="text" name="" id="name" placeholder="Name"  required>
+    
+    
+            <input type="text" name="" id="name" placeholder="Fathers Name" required>
+    
+    
+    
+            <input type="text" name="" id="name" placeholder="Mothers Name" required>
+    
+    
+    
+            <input type="date" name="" id="name" placeholder="Date" required>
+    
+    
+    
+            <input type="email" name="" id="name" placeholder="Email ID" required>
+    
+    
+    
+            <input type="Password" name="" id="name" placeholder="Password" required>
+    
+    
+    
+            <input type="Number" name="" id="name" placeholder="Phone Number" required>
+       </div>
+        <div>
+            <button class="btn">SignUp</button>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpPage</title>
+    <style>
+        body {
+            background: url(bg2.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .area h2{
+            text-align: center;
+            font-style: italic;
+        }
+        .area{
+            background-color: gray;
+            border: 2px solid black;
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 50%;
+            height: 70%;
+            
+        }
+       
+        .area p{
+            text-align: center;
+            font-size: large;
+        }
+        .area textarea{
+           position: absolute;
+           width: 80%;
+           height: 70%;
+           left: 10%;
+            
+        }
+        .btn button{
+           position: absolute;
+           right: 48%;
+           background-color: red;
+           padding: 5px 15px;
+           bottom: 10%;
+           color: white;
+           border: none;
+           border-radius: 2px;
+           cursor: pointer;
+        }
+        .btn button:hover{
+            opacity: 0.6;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="area">
+    <h2>How may i help u?</h2>
+        <p>U can write your problem here..</p>
+        <textarea name="abc" id="bbb" cols="30" rows="10">Text Here...</textarea>
+    </div>
+        <div class="btn">
+
+            <button>Send</button>
+        </div>
+   
+</body>
+</html>
